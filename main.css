@@ -1,0 +1,223 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 100%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section-h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.800000011920929px;
+    color: #306694;
+    text-align: center;
+    
+}
+
+.section-h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.800000011920929px;
+}
+
+
+.section-p {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    width: 900px;
+}
+
+.section-span {
+    font-size: 77.51px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.015em; 
+}
+
+.section-parent {
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.section-img {
+    position: relative;
+    right: 150px;
+}
+
+.section-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-image01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.imga {
+    position: relative;
+    left: 700px;
+}
+.section-parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-span2 {
+    font-size: 77.51px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.015em; 
+}
+
+.input-img {
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     
+}
+
+.section-p2 {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    width: 350px;
+}
+.parent-ins {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-img {
+     display: flex;
+     align-items: center;
+     
+}
+
+.header-wrapper {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.ul-list {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 50px;
+}
+
+.header-ul {
+    border-radius: 10px;
+    padding: 10px;
+    color:#83BCDC;
+    text-align: center;
+    border: 2px solid #83BCDC;
+}
+
+
+
+.ul-link:hover {
+     color: #EE7A28;
+}
+
+.ul-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #585858;
+}
+
+header {
+    background-image: url(/Градиент\ главная\ страница.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.header-p1 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 30px;
+}
+
+
+.header-h1 {
+    color: #47A7E3;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 700;
+    margin: 50px;
+    text-align: left;
+    line-height: 60px;
+    letter-spacing: 0.015em;
+}
+
+.section-tub {
+    width: 280px;
+    height: 60px;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(180deg, #FFA96B -21.43%, #EE7A28 100%);
+}
+
+
+.section-button {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.img-section {
+     position: relative;
+     top: 100px;
+}
+
+ 
+.section-button2 {
+     position: relative;
+     bottom: 200px;
+     left: 30px;
+}
+
+
+@media screen and (max-width:1441px) {
+    .container {
+        max-width: 100%;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .header-wrapper {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+}
